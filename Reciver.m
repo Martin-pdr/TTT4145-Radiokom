@@ -173,17 +173,6 @@ title("Recived");
 
 %% Test
 
-% Bits(1:91);
-% Test = bits2ASCII(double(Bits(1+(7*8):91-(7*2) )), 1);
-% Test1 = str2double(Test) - 100;
-% Message(Test1, :) = Bits(92:191);
-% 
-% % Convert Bits Back to Image
-% img_reconstructed_bits = reshape(Message.', [], 1);
-% img_reconstructed_bits = img_reconstructed_bits(1:21632);
-% img_reconstructed = reshape(uint8(bin2dec(reshape(char(img_reconstructed_bits+'0'), 8, []).')), [52, 52]);
-% imshow(img_reconstructed);
-
 Buffer2 = Buffer;
 
 Diff2 = 191 - BLen;

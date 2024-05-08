@@ -57,9 +57,3 @@ while true
     if Teller >= Stopp; break; end
 end
 
-
-% Convert Bits Back to Image
-% img_reconstructed_bits = reshape(Message.', [], 1);
-% img_reconstructed_bits = img_reconstructed_bits(1:length(img_bits));
-% img_reconstructed = reshape(uint8(bin2dec(reshape(char(img_reconstructed_bits+'0'), 8, []).')), size(img));
-%imshow(img_reconstructed);
